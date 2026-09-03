@@ -1,0 +1,28 @@
+{
+  "operation": "APPLICATION_INSTALL",
+  "canonical_operation": "APPLICATION_INSTALL",
+  "description": "Install an application via a package manager (winget, choco, etc.)",
+  "allowed_providers": [
+    "winget",
+    "choco"
+  ],
+  "parameters_schema": {
+    "type": "object",
+    "properties": {
+      "source": {
+        "type": "string",
+        "enum": [
+          "winget",
+          "choco"
+        ]
+      },
+      "version": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "source"
+    ]
+  },
+  "risk_classification": "MEDIUM"
+}

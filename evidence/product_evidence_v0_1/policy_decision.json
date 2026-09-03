@@ -1,0 +1,14 @@
+{
+  "request_id": "req-001",
+  "operation": "APPLICATION_INSTALL",
+  "target": "7zip",
+  "decision": "ALLOW",
+  "reason": "Target 7zip is in allowlist, source winget is allowed, risk mitigations apply.",
+  "conditions": [
+    "Must use winget as source",
+    "Version must be specified or default to latest",
+    "Installation must be logged"
+  ],
+  "timestamp": "2026-09-03T08:59:13.166205Z",
+  "decision_id": "pol-001"
+}

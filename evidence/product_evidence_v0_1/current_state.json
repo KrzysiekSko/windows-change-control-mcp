@@ -1,0 +1,9 @@
+{
+  "observation": "APPLICATION_INSTALL",
+  "target": "7zip",
+  "source": "winget",
+  "is_installed": false,
+  "installed_version": null,
+  "available_updates": [],
+  "timestamp": "2026-09-03T08:59:13.164206Z"
+}

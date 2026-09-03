@@ -1,0 +1,18 @@
+{
+  "operation": "APPLICATION_INSTALL",
+  "target": "7zip",
+  "risk_level": "MEDIUM",
+  "risk_factors": [
+    "Modifies system state (installs software)",
+    "Requires execution of external package manager (winget/choco)",
+    "Potential for unsigned or malicious packages if source not verified"
+  ],
+  "mitigations": [
+    "Limit to approved package managers (winget, choco)",
+    "Require package signature verification",
+    "Maintain allowlist of approved applications",
+    "Execute in isolated environment if possible"
+  ],
+  "requires_manual_review": false,
+  "automatic_approval_possible": true
+}

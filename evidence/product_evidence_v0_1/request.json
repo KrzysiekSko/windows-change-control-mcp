@@ -1,0 +1,10 @@
+{
+  "operation": "APPLICATION_INSTALL",
+  "target": "7zip",
+  "parameters": {
+    "source": "winget",
+    "version": "latest"
+  },
+  "timestamp": "2026-09-03T08:59:13.163205Z",
+  "request_id": "req-001"
+}

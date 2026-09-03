@@ -1,0 +1,35 @@
+{
+  "manifest_version": "0.1",
+  "created_at": "2026-09-03T08:59:13.168206Z",
+  "artifacts": {
+    "request.json": {
+      "size_bytes": 204,
+      "sha256": "bc3d7cc6b03ac9e07f7d528230d36a921ba5d6ba7cd40194ffb68191d2ad963e"
+    },
+    "capability.json": {
+      "size_bytes": 555,
+      "sha256": "26ecb697f1e9042412e9fd906560d7be90588d4a1318e464c33f300b59e075b5"
+    },
+    "current_state.json": {
+      "size_bytes": 211,
+      "sha256": "9ba632d18dc95e61d17b1195514834cf69bb89ba7577c579b65b33240fed3b72"
+    },
+    "risk_classification.json": {
+      "size_bytes": 606,
+      "sha256": "41db4590bc6939382025b38c95ef9ebec1361dc63f84664e27b016b82c442d05"
+    },
+    "policy_decision.json": {
+      "size_bytes": 422,
+      "sha256": "0fa748c9849cf9283cdc0b2ae7797c64c219ee5781868c1fc2a7b1eca64a72fd"
+    },
+    "plan.json": {
+      "size_bytes": 1248,
+      "sha256": "440eb51d3e4372ffa6ae44c4570083b10a8e7a92331f890e6be7ba180473eadf"
+    },
+    "execution_status.json": {
+      "size_bytes": 260,
+      "sha256": "6e3a825c636998e2b58b157eba4fdf180c05d441c2a2141ddfbd1fc7d6ef00d7"
+    }
+  },
+  "manifest_hash": "60d7fa9a459224753dd7afa427d7f65bfb303a71c5c2ae2e67dbfd9f65c8c428"
+}

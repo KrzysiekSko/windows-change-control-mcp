@@ -1,0 +1,210 @@
+Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. Definitions.
+
+   "License" shall mean the terms and conditions for use, reproduction,
+   and distribution as defined by Sections 1 through 9 of this document.
+
+   "Licensor" shall mean the copyright owner or entity authorized by
+   the copyright owner that is granting the license.
+
+   "Legal Entity" shall mean the union of the acting entity and all
+   other entities that control, are controlled by, or are under common
+   control with that acting entity. For the purposes of this definition,
+   "control" means (i) the power, direct or indirect, to cause the
+   direction or management of such entity, whether by contract or
+   otherwise, or (ii) ownership of fifty percent (50%) or more of the
+   outstanding shares, or (iii) beneficial ownership of such entity.
+
+   "You" (or "Your") shall mean an individual or Legal Entity
+   exercising permissions granted by this License.
+
+   "Source" form shall mean the preferred form for making modifications,
+   including but not limited to software source code, documentation
+   source, and configuration files.
+
+   "Object" form shall mean any form resulting from mechanical
+   transformation or translation of a Source form, including but
+   not limited to compiled object code, generated documentation,
+   and conversions to other media types.
+
+   "Work" shall mean the culmination of all processing performed
+   by a Source form, in accordance with the terms of this License.
+
+   "Derivative Works" shall mean any work, whether in Source or Object
+   form, that is based on the Work and for which the majority of the
+   total processing time is an element of the processing time used
+   to create the Derivative Works. For the purposes of this definition,
+   "Derivative Works" shall include any work that has been developed
+   from or based on the Work and for which the majority of the total
+   processing time is an element of the processing time used
+   to create the Derivative Works.
+
+   "Contribution" shall mean any work, whether in Source or Object
+   form, that is intentionally submitted to Licensor for inclusion in
+   the Work by the author or author-employee of the You. For the
+   purposes of this definition, "Contribution" shall include any work
+   that has been developed from or based on the Work and for which
+   the majority of the total processing time is an element of the
+   processing time used to create the Derivative Works.
+
+   "Contributor" shall mean Licensor and any individual or Legal Entity
+   that has contributed to the Work.
+
+2. Grant of Copyright License.
+
+   Subject to the terms and conditions of this License, each Licensor
+   hereby grants to You a worldwide, royalty-free, copyright license
+   to reproduce, prepare Derivative Works of, distribute, and
+   publicly perform and display the Work, including but not limited
+   to Sublicensing and Transfer, as long as You follow the terms and
+   conditions of this License.
+
+3. Grant of Patent License.
+
+   Subject to the terms and conditions of this License, each Licensor
+   hereby grants to You a worldwide, royalty-free, patent license
+   to make, have made, use, offer to sell, sell, import, and otherwise
+   transfer the Work, with respect to patent claims licensable by
+   the Licensor that are necessarily infringed by the
+   Use, Offer to Sell, Sale, or Import of the Work, but limited to
+   the claims that are a mutual Licensor patent and a mutual You
+   patent.
+
+4. Redistribution.
+
+   You may reproduce and distribute copies of the Work or
+   Derivative Works thereof in any medium, with or without
+   modification, provided that You meet the following conditions:
+
+   (a) You must give any other Recipients of the Work or
+       Derivative Works thereof a copy of this License; and
+
+   (b) You must cause any modified files in the Source form
+       to carry prominent notices stating that You changed
+       the files; and
+
+   (c) You must retain, in the Source form of any of the
+       Derivative Works thereof, all existing copyright
+       notices of the Work; and
+
+   (d) You must yourself comply with any of the component
+       licenses of the Derivative Work.
+
+   If the Work includes a "NOTICE" text file as part of its
+   distribution, then any NOTICE file that is included with
+   the redistribution of the Work must also contain the
+   information added to or altered from the original NOTICE
+   file by the Developer ("Developer" is defined in Section 5)
+   in accordance with the following:
+
+       If the Work includes a "NOTICE" text file as part of its
+       distribution, then any NOTICE file that is included with
+       the redistribution of the Work must also contain the
+       information added to or altered from the original NOTICE
+       file by the Developer ("Developer" is defined in Section 5)
+       in accordance with the following:
+
+           "NOTICE" is just one of the possible components of the
+           Work, so if a NOTICE file is included with the redistribution
+           of the Work, the requirements of Section 4, parts (a), (b),
+           (c), and (d) still apply.
+
+           If a NOTICE file is specified as part of a bilateral
+           attribution agreement, then the redistribution of the Work
+           must maintain the agreement.
+
+5. Submission of Contributions.
+
+   Unless You explicitly state otherwise, any Contribution intentionally
+   submitted to Licensor for inclusion in the Work by the You
+   author or author-employee shall be under the terms and conditions of
+   this License, without any additional terms or conditions of
+   the form:
+
+   "You accept" if You accept the terms and conditions of this License,
+   or "You do not accept" if You do not accept the terms and conditions
+   of this License.
+
+6. Trademarks.
+
+   This License does not grant permission to use the trade names,
+   trademarks, service marks, or product names of the Licensor.
+
+7. Disclaimer of Warranty.
+
+   Unless required by applicable law, [the Licensor] provides the Work
+   (and each Derivative Work thereof) on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+   implied, including, without limitation, any warranties or conditions
+   of title, merchantability, fitness for a particular purpose, and
+   non-infringement. In no event shall the Licensor be liable to
+   You for direct, indirect, special, incidental, or consequential
+   damages arising from User's use of the Work or Derivative Works
+   thereof, calculated in accordance with Section 8 of this License.
+
+8. Limitation of Liability.
+
+   In no event shall any Licensor be liable to You for direct,
+   indirect, special, incidental, or consequential damages arising
+   from User's use of the Work or Derivative Works thereof,
+   calculated in accordance with Section 9 of this License.
+
+9. Accepting Warranty or Additional Liability.
+
+   While redistributing the Work or Derivative Works thereof,
+   You may choose to accept an additional warranty or
+   additional liability terms, provided that You meet the
+   following conditions:
+
+   (a) You must create a separate legal entity to
+       accept the additional warranty or additional liability; and
+
+   (b) You must indemnify, defend, and hold harmless the Licensor
+       for the terms of the additional warranty or additional liability
+       that is attributable to the Licensor; and
+
+   (c) You must obtain written consent from the Licensor to
+       accept the additional warranty or additional liability
+       in accordance with the original Section 9 of this License.
+
+   However, nothing in this License shall be deemed to grant
+   any of the Licensor any additional warranty or additional
+   liability terms.
+
+END OF TERMS AND CONDITIONS
+
+APPENDIX: How to apply the Apache License to your work.
+
+      To apply the Apache License to your work, attach the following
+      boilerplate notice, with the fields enclosed by brackets "[]"
+      replaced with your own identifying information. (Don't include
+      the brackets!) The text should be enclosed in the appropriate
+      comment syntax for the file format. We also recommend that a
+      file or class name and, if possible, a version number is included.
+
+      Copyright [yyyy] [name of copyright owner]
+
+      Licensed under the Apache License, Version 2.0 (the "License");
+      you may not use this file except in compliance with the License.
+      You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+      Unless required by applicable law, software distributed under
+      the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES
+      OR CONDITIONS OF ANY KIND, either express or implied, including,
+      without limitation, warranties or conditions of title,
+      merchantability, fitness for a particular purpose, and
+      non-infringement.
+
+      Unless required by applicable law, software distributed under
+      the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES
+      OR CONDITIONS OF ANY KIND, either express or implied, including,
+      without limitation, warranties or conditions of title,
+      merchantability, fitness for a particular purpose, and
+      non-infringement.

@@ -1,0 +1,113 @@
+name: Repository Integrity
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  repository-integrity:
+    name: Validate repository integrity
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 1
+
+      - name: Verify required files
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            AGENTS.md
+            CHANGELOG.md
+            CODE_OF_CONDUCT.md
+            CONTRIBUTING.md
+            GOVERNANCE.md
+            LICENSE
+            NOTICE
+            README.md
+            SECURITY.md
+            docs/PROJECT-CHARTER.md
+            docs/architecture/CANONICAL-READ-OPERATIONS.md
+            docs/architecture/MCP-V0.1-CONTRACT.md
+            docs/architecture/READ-PROVIDER-CONTRACT.md
+            docs/decisions/ADR-0001-product-boundary.md
+            docs/decisions/ADR-0002-licensing.md
+            docs/decisions/ADR-0003-no-arbitrary-shell.md
+            docs/decisions/ADR-0004-provider-architecture.md
+            docs/decisions/ADR-0005-write-authorization.md
+            docs/decisions/ADR-0006-winutil-upstream-model.md
+            docs/decisions/ADR-0007-evidence-model.md
+            docs/decisions/ADR-0008-privilege-separation.md
+          )
+
+          for file in "${required_files[@]}"; do
+            test -f "$file" || {
+              printf 'Missing required file: %s\n' "$file" >&2
+              exit 1
+            }
+          done
+
+      - name: Verify required directories
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          required_directories=(
+            apps/mcp-server/src
+            apps/mcp-server/tests
+            docs/architecture
+            docs/decisions
+            docs/governance
+            docs/research
+            docs/threat-model
+            evidence
+            examples
+            packages
+            policies
+            providers
+            schemas
+            tests/contract
+            tests/integration
+            tests/rejection
+            tests/security
+            tests/vm
+          )
+
+          for directory in "${required_directories[@]}"; do
+            test -d "$directory" || {
+              printf 'Missing required directory: %s\n' "$directory" >&2
+              exit 1
+            }
+          done
+
+      - name: Validate JSON syntax
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          files = sorted(
+              path for path in Path(".").rglob("*.json")
+              if path.is_file() and ".git" not in path.parts
+          )
+          for path in files:
+              try:
+                  json.loads(path.read_text(encoding="utf-8"))
+              except Exception as exc:
+                  raise SystemExit(f"Invalid JSON: {path}: {exc}")
+          print(f"Validated {len(files)} JSON file(s).")
+          PY
